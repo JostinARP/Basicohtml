@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background:green;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1{
+    float: left;
+}
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+#banner{
+    width: 100%;
+    height: 100%;
+}
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: rgb(255, 221, 0);
+    transform: translateX(10px)translateY(-150px);
+}
+.menu a{
+    display: inline-flex;
+    color: black;
+    height: 50px;
+    text-decoration: initial;
+    padding: 22px;
+    
+
+
+
+}
+ .menu a:hover{
+    background: greenyellow;
+ }
+ #bienvenidos h2{
+    padding: 15px;
+    text-transform: uppercase;
+ }
+ #servicios {
+    padding: 50px;
+ }
