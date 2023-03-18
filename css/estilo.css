@@ -55,3 +55,48 @@ h1{
  #servicios {
     padding: 50px;
  }
+ #servicios h3{
+    text-align: center;
+    color: black;
+ }
+ #servicios h4{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ #servicios .contenedor{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+ }
+ #servicios article{
+    margin: 16px;
+ }
+ #servicios img{
+    width: 100%;
+    max-width: 400px;
+ }
+#productos{
+    background: blue;
+    color:white ;
+    text-align: center;
+    padding: 30px;
+}
+#productos h2{
+    padding: 15px;
+    text-transform: uppercase;
+}
+#productos .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-mascota{
+margin: 60px;
+}
+.info-mascota img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
