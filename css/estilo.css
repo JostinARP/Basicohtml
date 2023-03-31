@@ -269,24 +269,87 @@ footer .contenedor{
     color: aliceblue;
     text-decoration: dashed;
 }
+/**
 /*celular*/
-@media (min-width:420px){
+@media (min-width:322px){
     .menu{
-        background: rgba(51, 51, 51, 9);
-        width: 100%;
+        background: lightblue;
+        width: 50%;
         height: auto;
     }
     #banner h2{
-        font-size: 40px;
+        font-size: 20px;
+        float: left;
+        color: aqua;
+        transform:translate(-120%, 100%);
     }
     #banner img{
-        height: auto;
-        margin-top: -100px;
+        height: 100%;
+        
+        
     }
     #banner a{
-        margin-top:25px ;
+        border: aqua;
+        color: aquamarine;
+        transform: translate(15%,120%);
+        border: 3px solid blue;
     }
-    /*tablets*/
+    #banner p{
+        transform: translate(-5%,80%);
+        color: aqua;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    #servicios .contenedor{
+        display: block;
+        justify-content: center;
+        flex: stretch;
+        
+    }
+    #Guarderia img{
+        width: 30%;
+        max-width: 100%;
+        border-radius: 10%;
+        border: 2px solid black;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+       
+        
+    }
+    #Guarderia .contenedor{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+        
+        
+    }
+    #Guarderia .contenedor h1{
+        text-align: center;
+        transform: translate(18%,0%);
+    }
+    #Guarderia .contenedor h4{
+        weight: 50%;
+    }
+    #ubicacion .contenedor iframe{
+        width: 400%;
+         border-radius: 10px solid black;
+         float: left;
+}
+#ubicacion .contenedor {
+    text-align: center;
+    justify-content: end;
+    
+}
+#ubicacion .contenedor p{
+    transform: translate(-20%,0%);
+    text-align: center;
+
+
+
+    /*tablet*/
+}
 }
 @media (min-width: 768px){
     .menu{
@@ -301,7 +364,123 @@ footer .contenedor{
     #banner img{
         height: auto;
         margin-top: -100px;
+        transform: translate(0%,39%);
     }
+    #banner h2{
+        font-size: 30px;
+        text-align:end;
+        color: aqua;
+        transform:translate(-135%, -130%);
+    }
+    #banner a{
+        border: aqua;
+        color: aquamarine;
+        transform: translate(150%,120%);
+        border: 3px solid blue;
+    }
+    #banner p{
+        font-size: 20px;
+        transform: translate(30%,80%);
+        color: aqua;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    #Bienvenido .contenedor{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #servicios .contenedor{
+        display: flex;
+        justify-content: center;
+        flex:auto;
+     }
+     #Productos .contenedor{
+        display: inline-block;
+        justify-content: center;
+        
+     }
+     #Productos .contenedor h1{
+        text-align: center;
+        transform: translate(15%,0%);
+        color: aqua;
+     }
+     #Productos .contenedor h4{
+        color: aquamarine;
+        transform: translate(12%,0%)
+        ;
+     }
+     #Guarderia .contenedor{
+        display: flex;
+        justify-content: center;
+        flex:content;
+        transform: translateY(100%);
+        
+     }
+     #Guarderia{
+        background: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    height: 325px;
+
+     }
+     #Guarderia .contenedor h1{
+        text-transform: uppercase;
+        transform: translate(110%,-100%);
+     }
+    #Guarderia article{
+        transform: translate(-75%,-55%);
+        
+    }
+    #Guarderia .contenedor img{
+        height: 80%;
+        width: 80%;
+
+    } 
+   
+    #Promociones .contenedor{
+        display: inline-flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+    }
+
+    #Promociones{
+        background: blue;
+        color: aqua;
+        text-align: center;
+        padding: 20px;
+        height: 400px;
+    }
+    #Promociones .contenedor h1{
+        transform: translateX(180%);
+        text-transform: uppercase;
+    }
+    #Promociones .contenedor img{
+        transform: translate(-80%,120%);
+    }
+    #Promociones .contenedor h4{
+        transform: translate(-60%,-90%);
+    }
+    #ubicacion .contenedor iframe{
+        width: 600%;
+         border-radius: 10px solid black;
+         float: left;
+    }
+    #ubicacion .contenedor {
+    text-align: center;
+    justify-content: end;
+    
+    }
+    #ubicacion .contenedor p{
+    transform: translate(-40%,0%);
+    text-align: center;
+    
+    }
+
+    
+
     .info-mascota{
         width: 40%;
     }
@@ -314,28 +493,8 @@ footer .contenedor{
         justify-content: space-between;
     }
 }
-/*computador*/
 
-@media(min-width: 1024px){
-    .menu{
-        position: static;
-        width: auto;
-        height: auto;
-        transform: translateX(0%);
-        float: right;
-        display: flex;
-        background: #2b6c16;
-    }
-    .menu a{
-        border: none;
-    }
-    header label{
-        display: none;
-    }
-    #banner img{
-        margin-top: -200px;
-    }
-    .info-mascota{
-        width: auto;
-    }
+/*computador*/
+@media (min-width:1024px) {
+    
 }
